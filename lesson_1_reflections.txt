@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was easy find the change in code instead of looking for it from top to bottom.
+    Also, it shows the exact line where it is changed. this is all posible because 
+    the version control saves an old version of the file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+   	It is useful as it contains all the logic required to run the program. It
+   	gives a more clear picture of what is happening in the code and why it behaves
+   	in such a manner. It is  easy to debug any error involved.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: manually choosing commit helps in saving a new version of the file with 
+    resonable logic change required to improve the code. This removes unneccessary 
+    saving of files without any logical change.
+    For Ex:
+    when working as a team, it is neccessary to keep a track of progress. If 
+    someone writes a wrong line in the code and gets saved, it will take long time for others
+    to debug the problem. Instead, manually choosing commit gives second level of safety 
+    and saves time of others.
+
+    Cons: SInce its judgemental, it depends on each programmer as to when he/she 
+    has to commit. It may be small, big or just right commit. If it is committed 
+    for each and every change then the commit history become unreadable and is of 
+    no use. SImilary, if the logical change is large and used commit only seldom 
+    then there is less track of the versions and difficult to debug.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    For a program to run, there may be more than one file which are dependent on 
+    each other. For this reason, commmiting one working file saves all other 
+    dependent multiple files. Also, it keeps track of all the changes made in one 
+    or more files.  
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log helps to know who made changed in the code and the time of change along with
+    a unique serial number.
+    git diff is useful in comparing two versions of the same file to find out no 
+    of insertions and deletions. this can be done
+    be using the unique serial number of eack version.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because there is always a back up stored. Can jump back to the working code 
+    if something goes wrong (which is very much bound to happen). it makes to take 
+    risk by changing code withouut fear of breaking the project. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    may be try a new project and understand syntax used in GIT and all shortcuts.
