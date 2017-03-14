@@ -18,6 +18,13 @@ logical.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+As the name suggests, branches are part of the master  and are used to create files or 
+applications different from the master. It helps in creating and experimenting in 
+diffrent stages of main branch. For example, one can take a detour from the master and 
+add or delete some of the logics to make the whole application behave in a different 
+manner compared to original while keeping the master intact. 
+One can also use the master at any time and kepp jumping to branch or master.
+
 
 How do the diagrams help you visualize the branch structure?
 
