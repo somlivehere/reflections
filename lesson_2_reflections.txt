@@ -1,10 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
+it initialises an empty repository. it is requied to store all the files from the 
+working directory.
+
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Staging area acts as a bridge between working directory and repository. It acts as
+a second level of protection so that the user has to add the files to the staging 
+area and only the can commit the changes. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+stagging area can be used to compare with working directory or repository to 
+check for any changes in the file. By using wither git diff and git diff --staged,
+we can check for any changes before committing to ensure that the commit is 
+logical.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
