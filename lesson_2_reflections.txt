@@ -27,6 +27,10 @@ One can also use the master at any time and kepp jumping to branch or master.
 
 
 How do the diagrams help you visualize the branch structure?
+It shows the master and different branches attached to master. It gives a perspective 
+to the user to understand the chages made and different files or changes involved
+in the process. We can see how the structure is branches out and where to checkout 
+to return to the working program. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
